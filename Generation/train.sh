@@ -1,7 +1,7 @@
 #!/bin/bash
 
 version="03_epoch50"
-dataroot=""
+dataroot="./data"
 num_gpus=2
 
 

@@ -1,0 +1,11 @@
+/home/zh/projects/Knowledge-driven-spoken-dialogue-main/data
+/home/zh/projects/Knowledge-driven-spoken-dialogue-main/KnowledgeSelection
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.650 seconds.
+Prefix dict has been built successfully.
+length of kb: 38054
+Load model...
+Model created!
+Load model...
+Model created!

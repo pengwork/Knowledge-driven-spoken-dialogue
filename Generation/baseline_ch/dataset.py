@@ -11,7 +11,7 @@ import torch
 
 from tqdm import tqdm
 
-from utils.data import (
+from .utils.data import (
     pad_ids, truncate_sequences
 )
 

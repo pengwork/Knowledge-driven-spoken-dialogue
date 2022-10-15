@@ -7,11 +7,11 @@
   },
 
   "task": "generation",
-  "model_name_or_path": "your_pretrain_model_path",
+  "model_name_or_path":"/home/zh/projects/Knowledge-driven-spoken-dialogue-main/Generation//model/gpt2-Chinese-cluecorpussmall/",
 
-  "per_gpu_train_batch_size": 4,
-  "per_gpu_eval_batch_size": 4,
-  "gradient_accumulation_steps": 4,
+  "per_gpu_train_batch_size": 2,
+  "per_gpu_eval_batch_size": 2,
+  "gradient_accumulation_steps": 8,
 
   "learning_rate": 6.25e-5,
   "adam_epsilon": 1e-8,

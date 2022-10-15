@@ -14,17 +14,17 @@ from torch.utils.data import DataLoader, SequentialSampler
 from tqdm import tqdm
 from transformers import BertTokenizer, GPT2LMHeadModel
 
-from dataset import ResponseGenerationEvalDataset
-from utils.argument import (
+from .dataset import ResponseGenerationEvalDataset
+from .utils.argument import (
     update_additional_params,
 )
-from utils.model import run_batch_generation_sample
-from utils.metrics import (
+from .utils.model import run_batch_generation_sample
+from .utils.metrics import (
     UnigramMetric, NGramDiversity,
     CorpusNGramDiversity,
     BLEU
 )
-from utils.data import write_generation_preds
+from .utils.data import write_generation_preds
 
 try:
     from torch.utils.tensorboard import SummaryWriter
